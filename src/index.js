@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routing from './component/routing';
+import Routing from './component/Routing';
 import { Provider } from 'react-redux';
 import store from './store';
 
