@@ -5,10 +5,10 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                Home
+                <h1>Home</h1>
             </Fragment>
         )
     }
 }
 
-export default Home;
+export default connect()(Home);
