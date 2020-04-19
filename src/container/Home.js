@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { latestNews } from '../action';
+import LatestDisplay from '../component/Home/LatestDisplay';
 
 class Home extends Component {
     componentDidMount() {
@@ -10,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Home</h1>
+                <LatestDisplay />
             </Fragment>
         )
     }
