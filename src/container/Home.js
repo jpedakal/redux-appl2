@@ -11,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                <LatestDisplay />
+                <LatestDisplay ldata={this.props.datalist.latestdata}/>
             </Fragment>
         )
     }
