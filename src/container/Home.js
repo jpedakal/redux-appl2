@@ -20,7 +20,7 @@ class Home extends Component {
 function mapStateToProps(state) {
     console.log(state)
     return {
-        details: state.articles
+        datalist: state.articles
     }
 }
 
