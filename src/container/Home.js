@@ -24,7 +24,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-    return bindActionCreators({ latestNews })
+    return bindActionCreators({ latestNews }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
